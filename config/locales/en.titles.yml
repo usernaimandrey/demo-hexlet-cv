@@ -1,0 +1,8 @@
+en:
+  titles:
+    web:
+      base: HexletCV
+      pages:
+        about: About
+    users:
+      base: Users

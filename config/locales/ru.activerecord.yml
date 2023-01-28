@@ -1,0 +1,115 @@
+ru:
+  activerecord:
+    events:
+      user:
+        ban: Забанить
+        unban: Разбанить
+      resume:
+        publish: Опубликовать
+        hide: В черновик
+        archive: Архивировать
+        restore: Восстановить из архива
+      vacancy:
+        publish: Опубликовать
+        archive: Архивировать
+      # errors:
+      #   models:
+      #     resume/answer/like:
+      #       attributes:
+      #         user:
+      #           answer_owner: Нельзя лайкнуть свой ответ :)
+
+    models:
+      resume: Резюме
+      user: Пользователь
+      resume/answer: Рекомендация
+      resume/comment: Комментарий
+      answer/comment: Комментарий
+    attributes:
+      user:
+        resume_answer_likes_count: Количество лайков
+        first_name: Имя
+        last_name: Фамилия
+        name: Имя
+        about: Обо мне
+        resume_mail_enabled: Рассылка активности в ваших резюме
+        role: Роль
+        state: Статус
+        state/permitted: Активен
+        state/banned: Забанен
+      vacancy:
+        conditions_description: Условия и Бонусы
+        requirements_description: Требования
+        responsibilities_description: Обязанности
+        salary_currency: Валюта
+        salary_amount_type: Сколько денег
+        about_company: О компании
+        about_project: О проекте
+        experience_description: Опыт
+        link_for_contact: Ссылка для связи
+        title: Должность
+        programming_lanuage: Язык
+        employment_type: Тип занятости
+        country: Страна
+        city_name: Город
+        location: Адрес
+        technologies: Технологии
+        directions: Направления
+        salary: Зарплата
+        salary_from: Зарплата от
+        salary_to: Зарплата до
+        position_level: Уровень
+        location_of_position: Место работы
+        company_name: Компания
+        site: Сайт компании
+        contact_name: Имя контакта
+        contact_phone: Телефон контакта
+        contact_email: Email контакта
+        contact_telegram: Телеграм контакта
+        technology_list: Технологии
+        direction_list: Направления
+        state: Состояние
+        state/published: Опубликована
+        name: Имя
+        company: компания
+      resume:
+        name: Название
+        summary: Описание
+        city: Город
+        relocation: Готовность к релокации
+        hexlet_url: Hexlet
+        github_url: GitHub
+        contact: Контакт
+        english_fluency: Владение английским
+        skills_description: Навыки
+        awards_description: Награды, Сертификаты
+        state: Статус
+        state/draft: Черновик
+        state/published: Опубликовано
+        state/archived: В архиве
+        skill_list: Тэги навыков
+        direction_list: Направление
+      resume/answer:
+        content: Ответ
+        applying_state/pending: Ожидает подтверждения
+        applying_state/applied: Изменения внесены
+      resume/job:
+        content: Описание
+      resume/work:
+        company: Компания
+        position: Должность
+        begin_date: Дата начала
+        end_date: Дата конца
+        current: По настоящее время
+        description: Описание
+      resume/education:
+        description: Описание
+        institution: Учебное заведение
+        faculty: Факультет
+        begin_date: Дата начала
+        end_date: Дата конца
+        current: По настоящее время
+      resume/comment:
+        content: Комментарий
+      answer/comment:
+        content: Комментарий

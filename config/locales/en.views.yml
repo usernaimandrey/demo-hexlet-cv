@@ -1,0 +1,91 @@
+en:
+  web:
+    shared:
+      resume_form:
+        publish: Publish
+        hide: Draft
+      vacancy_form:
+        archive: Archive
+      answer:
+        add_a_comment: Add a comment
+      empty_list:
+        empty: List is empty
+    home:
+      index:
+        description: The platform that helps you get recommendations on CV from community members and professional HR. Publish resumes and leave recommendations to other participants.
+    resumes:
+      answers:
+        new:
+          header: New recomendation
+        edit:
+          header: Edit recomendation
+      information:
+        basic: Basic
+        work: Work
+        education: Education
+        current: to present
+      show:
+        add_a_comment: Add a comment
+        recomendations: Recomendations
+        answer_exists: You've already left a recommendation
+        likes: |
+          Likes: %{count}
+        archived: Resume in archive
+        download: Download PDF
+        print: Preview PDF
+      comments:
+        new:
+          header: New comment
+        edit:
+          header: Edit comment
+      comment_requires:
+        feedback: Your feedback is appreciated!
+        requires: This action requires
+        sign_in: sign in
+      answer_requires:
+        write_answer: Sign in to write an answer
+        sign_up: Sign up
+        sign_in: Sign in
+    users:
+      show:
+        header: Profile
+        answers: Answers
+        likes: Likes
+        resumes: Resume
+        tab_resumes: Resume
+        tab_answers: Answers
+        tab_comments: Comments
+        banned: Account has been banned
+    answers:
+      comments:
+        edit:
+          header: Edit comment
+    pages:
+      about_description: The goal of Hexlet CV is to provide a community platform where you will receive recommendations on resumes from community members and professional HR.
+    account:
+      vacancies:
+        new:
+          header: New vacancy
+        edit:
+          header: Edit vacancy
+          vacancy_archived: Vacancy archived
+        index:
+          header: My vacancies
+      resumes:
+        edit:
+          header: Edit resume
+        new:
+          header: New resume
+        index:
+          header: My resumes
+      profiles:
+        edit:
+          header: Settings
+        show:
+          header: Settings
+      notifications:
+        index:
+          header: Notifications
+      newsletters:
+        edit:
+          header: Newsletters

@@ -1,0 +1,30 @@
+en:
+  layouts:
+    shared:
+      sidebar:
+        all_resumes: All resumes
+        my_profile: My profile
+        my_resume: My resume
+        settings: Settings
+        notifications: Notifications
+        newsletters: Newsletters
+      sidebar_right:
+        last_answers: Last answers
+      nav:
+        add_resume: Add resume
+        how_to_create_resume: How to create resume
+        my_profile: My profile
+        settings: Settings
+        sign_out: Sign out
+        sign_in: Sign in
+        register: Sign up
+      footer:
+        about: About
+        source_code: Source code
+        other_os_projects: Other open-source projects
+        help: Help
+        knowledge: Knowledge
+        blog: Blog
+        recommended_books: Recommended books
+        additionally: Additionally
+    application:

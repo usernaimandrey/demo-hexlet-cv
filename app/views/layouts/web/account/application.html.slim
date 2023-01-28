@@ -1,0 +1,27 @@
+doctype html
+html.h-100 lang="#{I18n.locale}"
+  head
+    = render 'layouts/shared/head'
+  body.d-flex.flex-column.h-100
+    - if Rails.env.production?
+      = render 'layouts/deps/gtm_body'
+
+    = render 'layouts/shared/nav'
+    .container.my-4
+      .my-2
+        = render_flash_messages dismissible: true
+      main
+        .row
+          .col-md-3
+            ul.nav.flex-column.nav-pills
+              = nav_menu_item t('.notifications'), account_notifications_path
+              = nav_menu_item t('.resumes'), account_resumes_path
+              = nav_menu_item t('.vacancies'), account_vacancies_path
+              = nav_menu_item t('.settings'), edit_account_profile_path
+              = nav_menu_item t('.newsletters'), edit_account_newsletters_path
+          .col-md-9
+            - if content_for?(:header)
+              h1.h2.mb-4 = yield :header
+            = yield
+
+    = render 'layouts/shared/footer'

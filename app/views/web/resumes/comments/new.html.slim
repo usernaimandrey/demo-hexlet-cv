@@ -1,0 +1,4 @@
+- content_for :header do
+  = t('.header')
+
+= render 'web/shared/comment_form', comment: @comment, url: resume_comments_path(resource_resume)

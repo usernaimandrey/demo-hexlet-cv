@@ -1,0 +1,56 @@
+---
+ru:
+  layouts:
+    web:
+      admin:
+        application:
+          admin: Администраторы
+          all_users: Все пользователи
+          all_resumes: Все резюме
+          all_vacancies: Все вакансии
+      account:
+        application:
+          resumes: Мои резюме
+          vacancies: Мои вакансии
+          settings: Настройки
+          notifications: Уведомления
+          newsletters: Рассылки
+    shared:
+      last_answers:
+        title: Последние ответы
+        answers:
+          one: 1 Ответ
+          few: |
+            %{count} Ответа
+          many: |
+            %{count} Ответов
+      nav:
+        admin: Админка
+        vacancies: Вакансии
+        employment: Трудоустройство
+        resumes: Резюме
+        add: Добавить
+        add_resume: Резюме
+        add_vacancy: Вакансию
+        my_resumes: Мои резюме
+        my_vacancies: Мои вакансии
+        how_to_create_resume: Как составлять резюме
+        profile: Мой профиль
+        settings: Настройки
+        newsletters: Рассылки
+        sign_in: Войти
+        sign_out: Выйти
+        register: Регистрация
+      footer:
+        about: О проекте
+        rating: Рейтинг
+        source_code: Исходный код
+        other_os_projects: Другие open-source проекты
+        help: Помощь
+        knowledge: База знаний
+        success_stories: Истории успеха
+        employment_course: Курс по трудоустройству
+        recommended_books: Рекомендуемые книги
+        test_assigments: Тестовые задания
+        additionally: Дополнительно
+    application:

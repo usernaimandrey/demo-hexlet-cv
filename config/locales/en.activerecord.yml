@@ -1,0 +1,12 @@
+en:
+  activerecord:
+    attributes:
+      user:
+        resume_mail_enabled: Newsletters of activity in your CV
+      resume/work:
+        current: To present
+      resume/education:
+        current: To present
+      resume:
+        city: City
+        relocation: Redy relocation

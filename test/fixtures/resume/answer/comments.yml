@@ -1,0 +1,41 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+DEFAULTS: &DEFAULTS
+  content: |
+    Voluptatem aspernatur sed. Et sunt perspiciatis. Voluptatem at sunt. Et ullam aut. Et dolor quia. Velit iusto pariatur. Esse facilis enim.
+
+one:
+  <<: *DEFAULTS
+  resume: one
+  answer: one
+  user: one
+  answer_user: one
+
+two:
+  <<: *DEFAULTS
+  resume: two
+  answer: two
+  user: two
+  answer_user: two
+
+two_one_full:
+  <<: *DEFAULTS
+  resume: two
+  answer: one
+  user: full
+  answer_user: one
+
+two_full_one:
+  <<: *DEFAULTS
+  resume: two
+  answer: two_full
+  user: one
+  answer_user: full
+
+two_full_one2:
+  <<: *DEFAULTS
+  resume: two
+  answer: two_full
+  user: one
+  answer_user: full
+  content: 'Мой другой коммент'

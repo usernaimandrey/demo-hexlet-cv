@@ -1,0 +1,38 @@
+ru:
+  enumerize:
+    relocation:
+      another_country: Готов только в другую страну
+      another_city: Готов только в рамках страны проживания
+      another_city_country: Готов
+      not_ready: Не готов
+      not_specified: Не указано
+    salary_amount_type:
+      gross: До вычетов
+      net: На руки
+      depends: По договоренности
+    location_of_position:
+      remote: Удаленно
+      onsite: В офисе
+      hybrid: Гибрид
+    salary_currency:
+      rub: ₽
+      eur: €
+      usd: $
+    employment_type:
+      full-time: Полный день
+      part-time: Частичная занятость
+      contract: Контрактная работа
+      temporary: Временная работа
+      seasonal: Сезонная работа
+      internship: Стажировка
+    position_level:
+      intern: Стажёр
+      junior: Джуниор
+      middle: Мидл
+      senior: Синьор
+    english_fluency:
+      dont_know: Не знаю
+      basic: Начальные знания
+      read: Читаю профессиональную литературу
+      pass_interview: Могу проходить интервью
+      fluent: Свободно владею
