@@ -3,6 +3,8 @@
 set -o errexit
 
 bundle install
+npm i
+npm run build
 bundle exec rake assets:precompile
 bundle exec rake assets:clean
 bundle exec rake db:migrate
