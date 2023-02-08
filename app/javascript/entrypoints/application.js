@@ -10,7 +10,7 @@ import '@toast-ui/editor/dist/toastui-editor.css';
 import { Editor } from "@toast-ui/editor";
 
 import 'bootstrap-icons/font/bootstrap-icons.scss';
-// import '../scripts/selectVacancyFilter.js'
+import '../scripts/selectVacancyFilter.js'
 
 import '@nathanvda/cocoon';
 import ujs from '@rails/ujs';
