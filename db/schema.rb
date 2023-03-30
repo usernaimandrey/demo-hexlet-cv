@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_27_083950) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_30_123046) do
   create_table "countries", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -149,6 +149,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_27_083950) do
     t.string "locale"
     t.string "city"
     t.string "relocation"
+    t.string "contact_email"
+    t.string "contact_phone"
     t.index ["user_id"], name: "index_resumes_on_user_id"
   end
 

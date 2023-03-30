@@ -57,6 +57,16 @@
       b = han('resume', 'contact')
     .col-sm-9
       = @resume.contact
+  .row.mt-3.mb-4
+    .col-sm-3
+      b = han('resume', 'contact_phone')
+    .col-sm-9
+      = @resume.contact_phone
+  .row.mt-3.mb-4
+    .col-sm-3
+      b = han('resume', 'contact_email')
+    .col-sm-9
+      = @resume.contact_email
 
 - if @resume_works.any?
   .d-flex

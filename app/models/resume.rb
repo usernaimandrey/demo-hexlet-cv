@@ -19,6 +19,7 @@ class Resume < ApplicationRecord
   validates :github_url, presence: true
   validates :summary, presence: true, length: { minimum: 200 }
   validates :skills_description, presence: true
+  validates :contact_email, 'valid_email_2/email': true
 
   belongs_to :user
   has_many :answers, inverse_of: :resume, dependent: :destroy
