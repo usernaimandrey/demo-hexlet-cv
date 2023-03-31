@@ -151,6 +151,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_30_123046) do
     t.string "relocation"
     t.string "contact_email"
     t.string "contact_phone"
+    t.string "contact_telegram"
     t.index ["user_id"], name: "index_resumes_on_user_id"
   end
 

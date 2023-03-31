@@ -79,9 +79,10 @@ ru:
         relocation: Готовность к релокации
         hexlet_url: Hexlet
         github_url: GitHub
-        contact: Телеграм
+        contact: Дополнительные контакты
         contact_phone: Телефон
         contact_email: Почта
+        contact_telegram: Телеграм
         english_fluency: Владение английским
         skills_description: Навыки
         awards_description: Награды, Сертификаты
