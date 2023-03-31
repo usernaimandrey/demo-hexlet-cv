@@ -67,6 +67,11 @@
       b = han('resume', 'contact_telegram')
     .col-sm-9
       = @resume.contact_telegram
+  .row.mt-3.mb-4
+    .col-sm-3
+      b = han('resume', 'contact')
+    .col-sm-9
+      = @resume.contact
 
 - if @resume_works.any?
   .d-flex
